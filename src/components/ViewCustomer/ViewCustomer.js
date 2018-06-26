@@ -55,25 +55,25 @@ class ViewCustomer extends Component {
                             <ul>
                               {singleCase.title ? (
                                 <li>
-                                  <span>title: </span>
+                                  <span>Title: </span>
                                   {singleCase.title}
                                 </li>
                               ) : null}
                               {singleCase.nature_of_complaint ? (
                                 <li>
-                                  <span>complaint: </span>{" "}
+                                  <span>Complaint: </span>{" "}
                                   {singleCase.nature_of_complaint}
                                 </li>
                               ) : null}
                               {singleCase.complaint_from ? (
                                 <li>
-                                  <span>source: </span>{" "}
+                                  <span>Source: </span>{" "}
                                   {singleCase.complaint_from}
                                 </li>
                               ) : null}
                               {singleCase.created_at ? (
                                 <li>
-                                  <span>date : </span>
+                                  <span>Date : </span>
                                   {singleCase.created_at}
                                 </li>
                               ) : null}{" "}
@@ -100,8 +100,7 @@ class ViewCustomer extends Component {
     } else {
       return (
         <h3 className="customerNotSelected">
-          You did not select any customer yet please navigate to select customer
-          and add the customer ref number.
+          No customer Selected, Please Navigate to Select Customer, Add The Customer REf Number then press Submit!
         </h3>
       );
     }
