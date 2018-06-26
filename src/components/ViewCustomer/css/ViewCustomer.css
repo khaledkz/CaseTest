@@ -1,0 +1,45 @@
+.EnquiryBox{
+    width:50%;
+    margin:auto;
+    background: rgb(221, 219, 216);
+    padding:10px;
+    margin-top:10px
+}
+
+.EnquiryBox ul{
+    width:80%;
+    margin:auto;
+    margin-top:10px;
+    border:solid 1px rgb(184, 180, 180);
+    background: rgb(196, 193, 190);
+
+    padding:10px;
+    border-radius: 10px;
+ }
+
+ .EnquiryBox ul li{
+     list-style: none;
+     padding:3px;
+ }
+
+ 
+ .EnquiryBox ul li span{
+     color:rgb(173, 50, 50);
+     font-weight: bolder
+ }
+
+ .EnquiryBox h3{
+     margin-left:50px;
+     font-family: 'Courier New', Courier, monospace;
+     color:rgb(156, 108, 18)
+ }
+
+ .customerNotSelected{
+     margin:auto;
+     padding: 40px;
+     border:solid 1px rgb(173, 153, 153);
+     width:50%;
+     border-radius: 10px;
+     margin-top:40px;
+     
+ }
